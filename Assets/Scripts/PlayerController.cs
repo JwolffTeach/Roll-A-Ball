@@ -10,6 +10,8 @@ public class PlayerController : MonoBehaviour
 
     public GameSettings gameSettings;
 
+    public Trail trail;
+
     void Start()
     {
         rb = GetComponent<Rigidbody>();
@@ -31,6 +33,7 @@ public class PlayerController : MonoBehaviour
         {
             other.gameObject.SetActive(false);
             gameSettings.score += 1;
+            trail.Upgrade();
         }
     }
 

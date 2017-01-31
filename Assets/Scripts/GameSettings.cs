@@ -6,6 +6,7 @@ public class GameSettings : MonoBehaviour {
 
     public int score = 0;
     public int level = 1;
+    public int END_LEVEL_SCORE = 15;
 
     void Awake() {
 
@@ -21,7 +22,7 @@ public class GameSettings : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (score < 3) {
+        if (score < END_LEVEL_SCORE) {
             //Debug.Log(score);
         }
         else {
