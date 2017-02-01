@@ -26,7 +26,7 @@ public class Trail : MonoBehaviour {
 
     public void Upgrade() {
         var ma = ps.main;
-        lifeTime = lifeTime * lengthmodifier;
+        lifeTime = lifeTime + lengthmodifier;
         ma.startLifetime = lifeTime;
         Debug.Log(lifeTime);
     }

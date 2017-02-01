@@ -87,6 +87,7 @@
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\Rotator.cs" />
     <Compile Include="Assets\Scripts\Trail.cs" />
+    <Compile Include="Assets\Snake.cs" />
     <Compile Include="Assets\Trail_2.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

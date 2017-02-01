@@ -12,6 +12,8 @@ public class PlayerController : MonoBehaviour
 
     public Trail trail;
 
+
+
     void Start()
     {
         rb = GetComponent<Rigidbody>();
