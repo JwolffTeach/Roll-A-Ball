@@ -8,7 +8,7 @@ public class Trail : MonoBehaviour {
 
     private Vector3 offset;
 
-    public float lengthmodifier = 1.5f;
+    public float lengthmodifier = 0.1f;
     public float lifeTime = 0.1f;
 
     private ParticleSystem ps;
